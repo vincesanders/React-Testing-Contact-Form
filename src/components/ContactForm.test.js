@@ -28,7 +28,7 @@ test('Contains textarea for a message', () => {
     getByPlaceholderText('Write a message...');
 });
 
-test('Form submits records and submits information correctly', async () => {
+test('Form records and submits information correctly', async () => {
     const { getByPlaceholderText, getByRole, getByTestId } = render(<ContactForm />);
 
     //get inputs
